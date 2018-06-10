@@ -15,7 +15,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <script type="text/javascript">
 
 // PUT YOUR P2POOL SERVER'S ADDRESS HERE:
-var servaddr = 'http://zenfarm.ddns.net:5027';
+var servaddr = 'http://161.43.201.255:5027';
 
 $(document).ajaxError(function(event, request, settings, err) {
 	alert("error: " + settings.url + ": " + err.message);
@@ -149,6 +149,10 @@ $.getJSON(servaddr + '/recent_blocks', function(blocks) {
 	Do not use worker names (e.g. DGB_Address.worker)
 	
 	</p>
+	<object data="http://zenfarm.ddns.net:5025/static/site-stats/current_payouts.html" width="600" height="400">
+    <embed src="http://zenfarm.ddns.net:5025/static/site-stats/current_payouts.html" width="600" height="400"> </embed>
+    Error: Embedded data could not be displayed.
+</object>
     <!-- ########################################################################################## --> 
     <!-- ########################################################################################## --> 
     <!-- / content body --> 
