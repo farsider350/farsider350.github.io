@@ -1,1 +1,2 @@
-# Triple Zen Web Front
+# triplezen.tk
+# digibyte/litecoin mining portal
